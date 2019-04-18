@@ -1,6 +1,6 @@
-import datetime
+def calc(birth_year):
+    print(2019 - int(birth_year))
 
+print("Please, enter your birth year.")
+calc(input())
 
-def calc():
-    print("Please, enter your birth year.")
-    return datetime.date.year - int(input())
